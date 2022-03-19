@@ -2,8 +2,8 @@ import wpmdata,sys,re
 
 find = 0
 
-username = 'frost.gurren@gmail.com'
-password = 'T9qmZV9fGx3V!vi'
+username = ''
+password = ''
 
 year = sys.argv[1]
 season = sys.argv[2]
