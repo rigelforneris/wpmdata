@@ -5,13 +5,14 @@ find = 0
 username = ''
 password = ''
 
-year = sys.argv[1]
-season = sys.argv[2]
+try:
+    year = sys.argv[1]
+    season = sys.argv[2]
+except:
+    print("usage: python3 get_iracing_cars.py <YEAR> <SEASON>")
+    print("example: python3 get_iracing_cars.py 2022 2")
+    exit()
 
-#year = input("Digite o ano")
-#season = input("Digite a temporada")
-
-#car_list = open("data/car_list", "r")
 car_list = open("data/car_list", "r")
 driver_list = open("data/driver_list", "r")
 
