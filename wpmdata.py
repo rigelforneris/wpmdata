@@ -3,11 +3,11 @@ import dotenv
 import logging
 import os
 import sys
-from pyracing_wpm.response_objects import career_stats, chart_data, iracing_data,upcoming_events, historical_data, session_data
+from pyracing.response_objects import career_stats, chart_data, iracing_data,upcoming_events, historical_data, session_data
 import unittest
 import datetime
-from pyracing_wpm.client import Client
-from pyracing_wpm import constants
+from pyracing.client import Client
+from pyracing import constants
 import asyncio
 import json
 
